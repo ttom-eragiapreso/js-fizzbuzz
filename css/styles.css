@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a3b4c;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 55px;
+  font-size: 3.5rem;
+}
+
+
+.container {
+  width: 57%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  aspect-ratio: 1/1;
+  margin: 5px;
+  background-color: #1089b3;
+  color: black;
+}
+
+.fizz {
+  background-color: #06d6a0;
+}
+
+.buzz {
+  background-color: #ffd166;
+}
+
+.fizzbuzz {
+  background-color: #ef476f;
+}
